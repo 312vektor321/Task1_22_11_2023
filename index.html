@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="N1">Ваше имя</label>
+        <input id="N1" type="text" placeholder="Введите ваше имя">
+        <div>
+            <h1 class="N2">Ваш пол</h1>
+            <label>
+                <input type="radio" name="pol">
+                Женский
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="pol">
+                Мужской
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="pol">
+                I am ГуМан0Ид
+            </label>
+            <br>
+        </div>
+        <div>
+            <fieldset>
+                <legend class="N2">Ваш пол 2.0</legend>
+                <label>
+                    <input type="checkbox" name="pol">
+                    Женский
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="pol">
+                    Мужской
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="pol">
+                    I am ГуМан0Ид
+                </label>
+                <br>
+            </fieldset>
+        </div>
+        <label class="sr-only">
+            Дата подписания
+            <input type="text">
+        </label>
+
+        <div>
+            <h1 class="N3">Категория</h1>
+            <select name="category" multiple>
+                <option>Игры</option>
+                <option>Книги</option>
+                <option selected>Фильмы</option>
+                <option>Мультики</option>
+                <option>Всё сразу</option>
+            </select>
+        </div>
+        <div>
+            <h1 class="N3">Категория</h1>
+            <select name="category">
+                <option>Игры</option>
+                <option>Книги</option>
+                <option selected>Фильмы</option>
+                <option>Мультики</option>
+                <option>Всё сразу</option>
+            </select>
+            <button>Я не знаю</button>
+        </div>
+    </form>
+</body>
+
+</html>
